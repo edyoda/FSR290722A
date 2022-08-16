@@ -1,0 +1,58 @@
+.heading {
+    color: blueviolet;
+}
+
+
+#new-gadets-heading {
+    color: red;
+}
+
+
+/* p {
+    color: blue;
+} */
+
+
+nav {
+    color: aqua;
+}
+
+#second-para {
+
+}
+
+.first-word {
+    font-size: 40px;
+    color: blue;
+}
+
+.margin-experiment {
+    background-color: brown;
+    /* margin : top right bottom left; */
+    /* margin: 100px 50px 50px 30px; */
+    /* margin : 30px 30px 30px 30px; => margin : 30px; */
+
+    /* margin: 0px 0px 0px 40px; => margin-left: 40px; */
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+
+
+
+    /* padding: 30px; */
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.border-experiment {
+    /* border : width pattern color; */
+    border: 10px solid red;
+    /* border-left: 10px solid red; */
+    /* border-radius: 20px; */
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 400px;
+    margin: 0 auto;
+}

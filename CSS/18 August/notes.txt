@@ -1,0 +1,27 @@
+Hover ? => When you put your mouse on an element.
+Link : Created with the help of a tag
+States of Link : 
+    :link => Default link
+    :hover => When you keep your mouse on it
+    :active => When you are clicking it
+    :visited => When you have opened at least once
+
+Display :
+    block
+    inline
+    inline-block
+    none
+
+Visibility : 
+    visible
+    hidden
+
+Q. What is the diff between display : none and visibility :hidden?
+A. Visibility hidden occupies the space, however display none removes the space of the element
+
+Position :
+    static : Default position of every element
+    relative : Move the item from TLBR from its current position.
+    absolute : Move it in the relation of browser TLBR. (Partial)
+    fixed : Fix the item at any place in browser
+    sticky : FIND IT OUT AS AN EXERCISE

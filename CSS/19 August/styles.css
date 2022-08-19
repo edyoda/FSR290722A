@@ -1,0 +1,56 @@
+.shadow-experiments {
+    color: aqua;
+    /* text-shadow : horizontal-shadow vertical-shadow blur color */
+    text-shadow: 4px 6px 5px #f333c1;
+}
+
+.div-shadow-exp {
+    /* box-shadow : horizontal-shadow vertical-shadow blur spread color */
+    box-shadow: 5px 5px 5px grey;
+}
+
+/* COMBINATORS BELOW */
+
+/* DECENDENT SELECTOR */
+.article-comb-exp {
+    color: yellow;
+}
+
+/* CHANGE THE COLOR OF SPANS WHICH ARE DECENDENT OF THE CLASS ARTICLE-COMB-EXP TO BLUE */
+.article-comb-exp span {
+    color: blue;
+}
+/* span {
+    color: blue;
+} */
+
+
+.article-comb-exp .description {
+    font-size: 50px;
+}
+/* .description {
+    font-size: 30px;
+} */
+
+/* CHANGE THE COLOR AND FONT SIZE OF THE P TAGS WHO ARE DIRECT CHILD OF ARTICLE-COMB-EXP TO green and 30px RESPECTIVELY */
+.article-comb-exp > p {
+    color: green;
+    font-size: 30px;
+}
+
+
+.article-comb-exp > span {
+    font-size: 40px;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+/* APPLY TEXT SHADOW TO THE SPAN WHICH IS SITTING RIGHT NEXT (ADJACENT SIBLING) TO THE DIV */
+div + span {
+    text-shadow: 5px 5px 5px blue;
+}
+
+/* GENERAL SIBLING SELECTOR */
+/* APPLY 4PX GREY BORDER TO ALL THE SPANS WHO ARE GENERAL SIBLINGS (BROTHERS AND SISTERS) OF DIV */
+div ~ span {
+    border: 4px solid grey;
+}

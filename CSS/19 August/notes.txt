@@ -1,0 +1,50 @@
+========CSS V3==========
+
+Shadow?
+
+Types of shadow : 
+    1. Text Shadow
+    2. Box Shadow
+
+shadow : 5px 5px 5px grey;
+
+Combinators => When you have to apply CSS in combination of selectors
+ 1. Decendent Selector => space
+ 2. Direct Child Selector => > (greater than symbol)
+ 3. Adjacent Sibling Selector => + (plus symbol)
+ 4. General Sibling Selector => ~ (tilde)
+
+Great Grand Parent
+    Grand Parent
+        Parent
+            Child
+                Grand Child
+                    Great Grand Child
+
+A
+    B
+        C
+            D
+                E
+        K
+            L
+        M
+            N
+                O
+                P
+            Q
+    F
+        G
+    H
+        I
+            J
+
+
+Are all the direct child also the decendents of the same parent? Yes
+
+Are all the decendents also the direct childs of the same parent? No
+
+All the direct childs are decendents of a parent but not vice versa.
+
+
+NOTE : SIBLING SELECTORS ALWAYS FINDS MATCHING SIBLING IN THE "FORWARD DIRECTION ONLY"

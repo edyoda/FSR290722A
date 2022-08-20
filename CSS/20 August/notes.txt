@@ -1,0 +1,24 @@
+Units of measuement in CSS ?
+    1. Pixel (px)
+    2. em
+    3. rem
+    4. vh,vw => viewport height, viewport width
+
+1 em => 16px; default
+1 rem => 16px; default
+
+Visible area on a browser is called viewport
+
+
+Gradient
+    1. Linear: Goes form one direction to another.
+    2. Radial : Goes from center to outside of the element.
+
+Flex Layout : Value in display property
+justify-content : To align the items in the direction of flex with space distribution in various ways
+flex-direction : row, column and their reverse order
+align-items : To change the alignmnet of items in the other direction of the flex.
+align-self : TO CHANGE THE ALIGNMENT OF ONLY SPECIFIC CHILDREN IN A FLEX CONTAINER
+flex-wrap : To push the items in the new line if they go out of the screen size
+
+FLEXBOX LAYOUT IS CREATED TO DEVELOP ONLY 1DIMENSIONAL LAYOUTS

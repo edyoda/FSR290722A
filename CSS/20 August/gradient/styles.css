@@ -1,0 +1,30 @@
+.container {
+    font-size: 5px;
+}
+
+.description {
+   /* font-size: 42px;  */
+   font-size: 2.5em;
+}
+
+.new-paragraph {
+    font-size: 2rem;
+}
+
+html {
+    font-size: 25px;
+}
+
+h1 {
+    /* background-color: blue; */
+    /* backgrund: linear-gradient(direction, color1, color2...) */
+    /* background: linear-gradient(to left, yellow, blue); */
+    background: radial-gradient( yellow, blue);
+}
+
+.gradient-exp {
+    width: 200px;
+    height: 200px;
+    /* background-color: green; */
+    background: radial-gradient(red,green, blue);
+}

@@ -1,0 +1,12 @@
+Background Image : 
+background : url(PATH OF THE IMAGE);
+
+Overflow : When the child has more width and height than its parent, then it flows out of the parent.
+
+Text Tags : 
+<h1>....<h6>, <p>
+
+
+Pseudo : Not real (Fake)
+1. Pseudo Classes => (:), :link , :active, :hover, :visited, 
+2. Pseduo Elements => (::)

@@ -1,0 +1,36 @@
+#background-img-div {
+    width: 100vw;
+    height: 100vh;
+    font-size: 2em;
+    background: url(https://wi.wallpapertip.com/wsimgs/16-160965_decent-background-images-hd.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}
+
+#container-sec > div {
+    width: 500px;
+    height: 500px;
+    margin: 20px 0px;
+}
+
+
+#img-container1 {
+    /* it will hide the item which falls outside the area of its parent */
+    overflow: hidden;
+}
+
+#img-container2 {
+    /* it will show the scroll always no matter the size of the child */
+    overflow: scroll;
+}
+
+#img-container3 {
+    /* it will show scroll automatically when its needed (when the child goes out of the parent dimension) */
+    overflow: auto;
+}
+
+#img-container4 {
+    /* default property of overflow, which allows the child to go out of the parent bounds */
+    overflow: visible;
+}

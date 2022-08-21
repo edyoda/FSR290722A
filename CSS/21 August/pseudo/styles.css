@@ -1,0 +1,79 @@
+.article {
+    /* background-color: blue; */
+}
+
+/* p:last-of-type {
+    background-color: yellow;
+    color: red;
+} */
+
+
+/* p:nth-of-type(2) {
+    background-color: blue;
+} */
+
+
+.article p:nth-of-type(4),
+.article p:nth-of-type(2) {
+    background-color: red;
+}
+
+
+p:first-child {
+    background-color: green;
+}
+
+/* p:last-child, p:nth-child() */
+
+
+
+.input-exp:focus {
+    /* border: 2px solid red; */
+    background-color: aqua;
+}
+
+.input-exp:hover {
+    background-color: yellow;
+}
+
+.input-exp:disabled {
+    background-color: black;
+}
+
+
+/* p::before {
+    content: "=> ";
+}
+
+p::after {
+    content: "!";
+    content: url(); 
+} */
+
+ul li {
+    list-style: none;
+}
+
+ul li::before {
+    /* add your custom bullet here */
+}
+
+/* p::first-letter {
+    font-size: 40px;
+} */
+
+p::first-line {
+    font-size: 32px;
+}
+
+::selection {
+    /* color: green; */
+    background-color: green;
+}
+
+p {
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    line-height: 34px;
+    text-decoration: line-through;
+}

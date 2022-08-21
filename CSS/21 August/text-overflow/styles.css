@@ -1,0 +1,23 @@
+.card {
+    display: inline-block;
+    width: 300px;
+    box-shadow: 5px 5px 5px grey;
+    margin-right: 30px;
+    height: 400px;
+}
+
+/* 1. Create the problem of overflow by giving white-space: nowrap
+2. Solve the problem of overflow using overflow: hidden 
+3. Provide text-overflow: ellipsis to put a ... at the en of the line*/
+.card h1 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.card p {
+    /* word-break: keep-all; */
+    word-break: break-all;
+    /* word-break: break-word; */
+}

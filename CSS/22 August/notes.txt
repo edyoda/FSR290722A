@@ -1,0 +1,9 @@
+Buttons ? HTML tag which creates a clickable item on UI.
+
+Transform ? Change
+    rotate : It roates the item, deg => deg
+    skew : It tilts the item on different axes, values => deg
+    translate : Used to shift the element is xy plane by providing values in px
+    scale : Used to zoom in/out of the item
+
+Transition

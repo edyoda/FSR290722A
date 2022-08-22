@@ -1,0 +1,11 @@
+Step 1 : Break down the screen into as smaller items as possible.
+Steps 2 : Identify the correct tags to be used at each place (try to use semantic tags).
+Step 3 : 
+
+
+Components : 
+    1. NavBar : <nav> => flex
+        3 childrens :
+            img
+            ul - li - a / div - span - a => flex, center
+            button

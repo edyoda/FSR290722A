@@ -1,0 +1,37 @@
+#fbLogin {
+    background-color: #166fe5;
+    height: 30px;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 200px;
+}
+
+#fbLogin:hover {
+    color: #166fe5;
+    background-color: #ffffff;
+    border: 2px solid #166fe5;
+}
+
+.transform-exp {
+    background-color: #166fe5;
+    color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* transform: rotateX(45deg); */
+    /* transform: rotateX(49deg) rotateY(43deg); */
+    /* transform: skewX(30deg); */
+    /* transform: translateX(50px); */
+}
+
+.transform-exp:hover {
+    transform: scale(1.2);
+    /* font-size: 40px; */
+}

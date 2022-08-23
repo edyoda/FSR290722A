@@ -1,0 +1,71 @@
+#container {
+    width: 300px;
+    height: 300px;
+    margin-left: 5em;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid black;
+
+    animation-name: move-box;
+    animation-duration: 1s;
+    /* animation-fill-mode: both; */
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+
+}
+
+#container:hover {
+    animation-play-state: paused;
+}
+
+@keyframes move-box {
+    0% {
+        background-color: teal;
+        color: black;
+        transform: rotateZ(0deg);
+        /* transform: translate(0px,0px); */
+    }
+    
+    25% {
+        background-color: blue;
+        color: red;
+        transform: rotateZ(45deg);
+        /* transform: translate(800px,0px); */
+    }
+    
+    50% {
+        background-color: yellow;
+        color:blue;
+        transform: rotateZ(90deg);
+        /* transform: translate(800px,800px); */
+    }
+    
+    75% {
+        background-color: green;
+        color: white;
+        transform: rotateZ(135deg);
+        /* transform: translate(0px,800px); */
+    }
+    
+    100% {
+        background-color: red;
+        color: yellow;
+        transform: rotateZ(180deg);
+        /* transform: translate(0px,0px); */
+    }
+}
+
+
+
+.container:hover p {
+    color:red;
+    border-bottom: 2px solid blue;
+}
+
+.container:hover span {
+    color: green;
+}

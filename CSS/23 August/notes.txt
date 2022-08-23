@@ -1,0 +1,20 @@
+Animation ? Moving an object wrt time
+
+Animation works in percentage in CSS which varies from
+0-100
+0 => Initial Stage
+-
+-
+-
+-
+-
+-
+-
+100 => Final Stage
+
+Frames(keyframes) : It is an element with some style at a particular point of time.
+
+animation-fill-mode:
+    backwards : it will keep the initial animation frame value BEFORE THE ANIMATION STARTS
+    forwards : it will retain the last value AFTER ANIMATION COMPLETION
+    both

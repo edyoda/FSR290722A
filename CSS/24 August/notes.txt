@@ -1,0 +1,33 @@
+RWD (Responsive Web Design) : The style of designing web pages which are visible and have good look and feel on all different sized devices.
+E.g Desktop, Laptop, Tablets, Mobiles etc
+
+
+Resolution : 
+    Desktop : 15-21 inch : 1368px - 4096px (4K) 
+    Laptop : 13-16 inch : 1024px-1920px
+    Tablets : 8-10 inch : 768px - 991px
+    Mobiles : 4.5-7 inch : 360px - 475px
+
+    ----FROM INTERNET---
+    320px — 480px: Mobile devices.
+    481px — 768px: iPads, Tablets.
+    769px — 1024px: Small screens, laptops.
+    1025px — 1200px: Desktops, large screens.
+    1201px and more — Extra large screens, TV.
+
+
+Break Points : Range in px for different screen sizes
+
+
+Media Query : A way to write different CSS for different screen sizes on same web page.
+
+Syntax : @media screen and (max-width: 480px) and (min-width: 320px) {
+
+}
+
+
+Mobile First Approach : When you give prefernce to mobile sizes first over desktop sizes.
+
+Step 1 : Use meta tag with viewport.
+Step 2 : Use % to set width in items rather than using px.
+Step 3 : Use media queries

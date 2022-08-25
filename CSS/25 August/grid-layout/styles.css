@@ -1,0 +1,38 @@
+#header {
+    height: 10vh;
+    background-color: teal;
+    grid-area: header;
+}
+
+
+#left-sidebar {
+    height: 80vh;
+    background-color: bisque;
+    grid-area: lside;
+}
+
+#content-section {
+    height: 80vh;
+    background-color: azure;
+    grid-area: content;
+}
+
+#right-sidebar {
+    height: 80vh;
+    background-color: blanchedalmond;
+    grid-area: rside;
+}
+
+#footer {
+    height: 10vh;
+    background-color: teal;
+    grid-area: footer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+     'header header header header'
+     'lside content content rside'
+     'footer footer footer footer'
+}

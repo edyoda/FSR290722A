@@ -1,0 +1,13 @@
+Overlay 
+Parallex
+
+opacity: To change the tarnsparency of an element
+Its values varies from 0-1
+
+
+background-attachment: fixed
+used to create parallax effect
+
+Grid => Collection of rows and columns.
+
+Principle of Grid : Dividing screen into columns of equal width

@@ -1,0 +1,15 @@
+Good programming practices : 
+1. Readability of code : Prettier
+2. Close all the tags, even empty tags e.g <br />
+3. Use meaningful names for classes and ids
+4. Use sementic tags as much as possible
+5. Try to avoid overriding the sytles
+
+
+Priorities in CSS
+
+inline > internal > external
+
+In case of multiple classes in same style place then the one written at last will have higher priority.
+
+# > .

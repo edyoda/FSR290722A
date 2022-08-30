@@ -1,0 +1,26 @@
+String, Control Flow
+String ? Collection of characters
+
+Strings are read by index by computer/programming language.
+
+Hello from JavaScript session on 30 August, 2022
+
+H => 0
+e => 1
+l => 2
+l => 3
+o => 4
+  => 5
+f => 6
+r => 7
+o => 8
+m => 9
+...
+
+
+Note : JS is case sensitive language
+
+Min index in a string is always 0
+Max index in a string is always one less than the length of the string.
+
+We use brackets () when we are using a method or a function.

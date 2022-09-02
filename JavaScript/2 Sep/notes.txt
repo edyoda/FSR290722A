@@ -1,0 +1,28 @@
+Control Flow : 
+    1. If else
+    2. Ternary Operator
+    3. Switch case
+
+// Ternary operator ?
+// SYNTAX => expression ? <true-block> : <false-block>
+
+Use switch case when you have to compare like equal to (==), if you have multiple comparisions like >,< etc then use if else statement.
+
+Coersion => Conversion of one data type into another
+    Implicit : Automatic coersion
+    Explicit : Manual coersion
+
+true => 1
+falsy value => 0
+
+NaN => Not A Number
+
+Number : 
+    Int : Whole numbers
+    Float : Decimal numbers
+
+
+Dialog Boxes : 
+    1. Alert : To show simple messages to the user e.g validation message
+    2. Prompt : To take input from the user
+    3. Confirm : To take a confirmation from user

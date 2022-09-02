@@ -1,0 +1,27 @@
+Control Flow => if else block
+
+if block will get executed when the expression results in a truthy value.
+else block will get executed when the expression results in a falsy value.
+
+Truthy : 
+
+
+5 Falsy values in JS : 
+    false
+    0
+    null
+    undefined
+    ""
+Any value other than above 5 falsy value is a truthy value.
+
+
+Operators : 
+    1. Arithmatic : +,-,*,/,%, ** 
+    2. Logical : &&, ||, !
+    3. Assignment : =
+    4. Increment and decrement operator : ++,--
+    5. Comparision : >,>=,<,<=, ==, !=
+
+x = 10// assign 10 to variable x
+x == 10 // check if the value of x is 10 or not
+Operand Operator Operand

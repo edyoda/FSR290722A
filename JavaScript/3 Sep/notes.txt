@@ -1,0 +1,16 @@
+Objects in JS/JSON => Collection of key value pair wrapped inside {}
+
+Miscelleneous Stuff : 
+
+Comparision Operator : 
+== : It compares only the values
+=== : It compares values and data type both
+
+If you want to check if a value is truthy or falsy in JS, put !! in front of the value
+
+Post Increment/Decrement : It uses the value then increase/decreases it. 
+Pre Increment/Decrement : It increase/decreases the value then uses it.
+
+Note : 
+There can be a single if condition without else part
+but there can not be a single else without if part.

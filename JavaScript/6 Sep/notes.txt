@@ -1,0 +1,20 @@
+Array => Collection of homogeneous data type.
+[]
+Syntax : var <name-of-array> = [comma seperated values of array];
+
+JSON (JavaScript Object Notation) : Array of Objects
+
+Array methods : 
+    push() => To add new items at the end of the array
+    pop() => To delete an item from the end of the array
+    unshift() => To add new item at the begining of the array
+    shift() => Delets an item from the begining of an array
+    splice() => Used to perform any insertion/replace/deletion on array items at any positon/index
+    sort() => To sort the array in alphabetical order **
+    reverse() => To revese the array
+    concat() => To join 2 arrays
+    includes() => To check if an item in present inside an array
+    Array.isArray() => To find out if the variable is actually an array or not
+    toString() => To convert array into an string
+
+**EVERYTHING IN JAVASCRIPT IS AN OBJECT**

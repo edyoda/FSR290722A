@@ -1,0 +1,7 @@
+Loops => Repeating something in a particular pattern.
+
+Types of Loop : 
+    1. While
+    2. For
+
+Infinite Loop : The loop which never ends

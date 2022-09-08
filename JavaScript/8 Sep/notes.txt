@@ -1,0 +1,9 @@
+Function/Method ? A wrapper on our logic.
+
+Write once use multiple times.
+
+Argument : The data given as input to the function.
+return   : The output given from the function.
+
+
+Hoisting : Moving variable declarations at the top.

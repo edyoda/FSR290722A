@@ -1,0 +1,15 @@
+DOM (Document Object Model) => Representation of HTML document in the form of an tree/object.
+Node/Element : Every tag available on our HTML page.
+
+Selection of Node : 
+    5 methods : 
+        1. getElementById()
+        2. getElementsByClassName()
+        3. getElementsByTagName()
+        4. querySelector()
+        5. querySelectorAll()
+
+
+Note : HTMLCollection is a special type of array.
+
+Chaging CSS of any HTML element using JS.

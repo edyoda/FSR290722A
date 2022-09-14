@@ -1,0 +1,22 @@
+Event => Any action happening on a web page.
+
+Clicking
+Key Press
+Scroll
+Page load etc..
+
+Functions to listen and execute when some action happens, these are called as event listeners.
+
+
+// Features : 
+1. Dark/Light mode toggle
+2. Increase/decrease font size on Page using A- and A+
+
+input : 
+Keyup
+Keydowm
+onfocus
+onblur
+
+form : 
+submit  

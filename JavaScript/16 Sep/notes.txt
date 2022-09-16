@@ -1,0 +1,15 @@
+append() => Used to insert HTML node inside another HTML node.
+
+element.classList.add(classname): To Add classes in any HTML element.
+element.classList.remove(classname): To Remove classes in any HTML element.
+
+
+Function : function function-name() {
+
+}
+
+Anynomous Function : function () {
+
+}
+
+// Exercise : How to find any children in between inside an parent i.e other than firstElementChild and lastElementChild

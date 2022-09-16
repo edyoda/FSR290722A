@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Events</title>
+    <style>
+        .error {
+            border: 2px solid red;
+        }
+
+        .error-text {
+            color: red;
+        }
+        .card {
+            border: 1px solid black;
+            display: inline-block;
+            margin : 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Events | DOM</h1>
+    <h2>ToDo List</h2>
+    <!-- <form id="todoForm"> -->
+        <input id="todoInputField" type="text" placeholder="Enter your ToDo Item" />
+        <button id="addItemBtn">Add Item</button>
+        <br />
+        <span id="errorSpan" style="display: none" class="error-text">Please enter minimum 8 characters</span>
+    <!-- </form> -->
+    <ul id="todoList">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+    </ul>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

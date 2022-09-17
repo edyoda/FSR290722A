@@ -1,0 +1,30 @@
+CLOSURES => Accessing the vairables inside a child function.
+
+
+
+// How to make card using JS
+// Quiz 3 (5,7) and 4(1,7)
+// Description about redirection on card click.
+function test () {
+        console.log(i);
+    }
+
+for (var i = 0; i < 5; i++) {
+   setTimeout(test,1000);
+}
+
+// 0.1s => By this time loop has finised its execution 5 times
+// 0.2s => 5
+// 0.3s => 5
+// ...
+// 1s => 5
+
+// After 1 second what will be the value of "i"?
+
+
+function test() {
+    var name = "John";
+    function newFunction() {
+        console.log(name); // CLOSURES
+    }
+}

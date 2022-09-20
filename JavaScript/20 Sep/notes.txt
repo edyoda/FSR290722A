@@ -1,0 +1,31 @@
+BOM (Browser Object Model) : Superset of DOM.
+BOM properties can be accessed from window object.
+Window represents the current tab.
+
+
+    1. History : Browser history
+        back() : Go back by 1 step in browser history.
+        forward(): Go forward by 1 step in browser history.
+        go() : Takes number as input to take to specific position in history.
+            -ve values : Backwards
+            +ve values : Forwards
+    2. Location : To access all the information related to the URL (Link) of the currently opened page.
+        href : Current link which is present in your browser's address bar.
+        hostname : Gives the base URL i.e the website URL.
+        search : Gives the string of query parameters.
+        protocol : http or https.
+    3. Screen : All info related to the screen.
+        width,height : Complete w/h of screen.
+        availWidht,availHeight : Complete - misc scpace (task bar etc) w/h.
+        availTop,availLeft : Availalble top and left co ordinate to work with.
+    4. Navigator : Contains the information about device.
+        useAgent : Contains information about the broser name and version and OS name and version.
+        onLine : Checks if the browser is connected to internet
+        geoLocation : Get the current location of user (co ordinates, latitude and longitude).
+
+alert()
+prompt()
+confirm()
+open()
+close()
+innerWidth,innerHeight : Inner width of browser

@@ -1,0 +1,120 @@
+AJAX => Asyncronous Javascript And XML
+AJAX is an HTTP request made by JavaScript to receive/send data to/from the server WITHOUT REFRESHING THE PAGE.
+XML => Extensible Markup Language
+
+JSON => JavaScript Object Notation
+
+CSV => Comma Separated Values
+
+Client Server Model
+Data Transfer : Data sent/received to/from the server.
+
+HTTP Request : When we want to see some data/page on internet we make a request
+HTTP Response : When server gives us the page back it is called response.
+
+Client : Our sytem/mobile/laptop/dektop etc.
+Server : Where data is kept/stored.
+
+Protocol : Set of rules.
+HTTP => Hyper Text Transfer Protocol
+
+When we make a request to the server, we have to choose one of the following method : 
+
+HTTP Methods (https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+    GET : When you have to request set of data from the server. E.g Get a list of items, get a page, Search etc
+    POST : When we have to send the data to the server. E.g Submit a form, Place an order on eComm website.
+    PATCH : When we have to edit something. E.g Updating a mobile number.
+    DELETE : When we have to delete something. E.g Delete an email
+
+
+HTTP Codes : These are codes/numbers which gives us the information about the response given by the server.
+(https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+Series of Codes : 
+1xx Series : 
+
+2xx Series : SUCCESS CODES
+200 : Ok
+201 : Created
+
+4xx Series : REQUEST ERRORS (Client Errors)
+400 : Bad Request
+401 : Unauthorized (When user is not logged in)
+403 : Forbidden (When user does not have permission)
+404 : Not Found
+
+5xx Series : Server Errors
+500 : Internal Server Error
+502 : Bad Gateway
+503 : Service Unavailable (Server is running out of its capacity)
+
+A request and response consists of 2 parts : 
+1. Head : Meta data, status code, method name etc
+2. Body : Actual data requested from the server/ sending to the server
+
+When server give back the response : 
+Head : Status Codes
+Body : Actual Data
+
+Accept Header : We inform the server that which type of data are we requesting.
+
+html
+xml
+json
+csv
+text etc
+
+Content-Type : Server inform the client about the type of data it has sent in the body.
+html
+xml
+json
+csv
+text etc
+
+Data of 2 users :
+
+Name : John Doe
+Mobile : 9876543210
+DOB : 01/01/1970
+
+Name : Alex Frank
+Mobile : 8798002387
+DOB : 01/01/1980
+
+JSON  : 
+[
+    {
+        name: "John Doe",
+        mobile: "9876543210",
+        dob: "01/01/1970"
+    },
+    {
+        name: "Alex Frank",
+        mobile: "8798002387",
+        dob: "01/01/1980"
+    }
+]
+
+XML : 
+<users>
+    <user>
+        <name>John Doe</name>
+        <mobile>9876543210</mobile>
+        <dob>01/01/1970</dob>
+    </user>
+    <user>
+        <name>Alex Frank</name>
+        <mobile>8798002387</mobile>
+        <dob>01/01/1980</dob>
+    </user>
+</users>
+
+CSV : 
+name,mobile,dob
+John Doe,9876543210,01/01/1970
+Alex Frank,8798002387,01/01/1980
+
+
+SBI (State Bank of India) : I go to bank and the cashier is at lunch
+ I have 2 option
+    1. Wait in the bank for lunch time to over and cashier to come back.  ===> SYNCHRONOUS (JAVA, PYTHON, C ,C++ ETC)
+    2. Go home/market, finish other work and come back when lunch time is over. ===> ASYNCHRONOUS (JS)

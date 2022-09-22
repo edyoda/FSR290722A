@@ -1,0 +1,13 @@
+AJAX 
+
+API : Application Programming Interface
+
+REST API : REpresentational State Transfer API 
+REST API => It is a URL which gives us JSON data.
+
+EndPoint : URL
+
+
+
+String to JSON => JSON.parse(string)
+JSON to String => JSON.stringify(JSON)

@@ -49,7 +49,7 @@ function onAjaxResponse(e) {
 function onBtnClick() {
     loader.style.display = "block";
   var ajax = new XMLHttpRequest(); // Step 1
-  ajax.open("GET", "https://jsonplaceholder.typicode.com/toasdfasdfdos"); // Step 2
+  ajax.open("GET", "https://jsonplaceholder.typicode.com/toasdfasdfdos",true); // Step 2
   ajax.send(); // Step 3
 
   ajax.addEventListener("readystatechange", onAjaxResponse); // Step 4
@@ -73,12 +73,13 @@ var submitBtn = document.getElementById('submitBtn');
 function onSubmit() {
     try {
         var ajax = new XMLHttpRequest();
-        ajax.open('POST','https://jsonplaceholder.typicode.com/todos');
+        ajax.open('POST','https://jsonplaceholder.typicode.com/todos',true);
         var data = {
             feedbackMessage : feedback
         };
         var dataToSend = JSON.stringify(data);
         ajax.send(dataToSend);
+        //
     } catch (err) {
         alert("Oops! Something went wrong, please try again");
         console.log("Network err", err);

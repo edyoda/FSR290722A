@@ -1,0 +1,39 @@
+OOPs => Object Oriented Programming
+this => this keyword is used to access the properties of current object / it refers to the current context
+
+Encapsulation : Wrapping of data into a single entitty. E.g Person object.
+
+Constructor Functions : A way to create object with the help of functions.
+
+Object Instanciation : Creating differnt object of the same constructor function.
+
+"EVERYTHING IN JAVASCRIPT IS AN OBJECT OF SOME TYPE"
+
+Procedural Programming : The code that we were writing till today for a long period of time
+
+Classes : ES6 way of encapsulating the data
+Class : Collection of variables and functions.
+======> Collection of data member and member functions.
+
+Versions of JavaScript : ES (Ecma Script)
+ES1
+ES2
+...
+ES5
+ES6
+...
+ES11/12
+
+Inheritance : Child acquiring the proprties of its parent.
+
+Prototype Chaining :  If we use some method/function which is not present in an object, then it goes up in the hierarchy(parent) and try to find it there, this process keeps on repeating untill it reaches to the top of the hierarchy.
+
+
+null
+    Object
+        B
+            C
+                D
+                    E
+
+E.g We use .toString() on E, if it doesn't have it it will go up and try to find the mthod.

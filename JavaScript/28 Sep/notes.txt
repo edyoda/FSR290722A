@@ -1,0 +1,13 @@
+jQuery => It is a JavaScript Library.
+
+Library : Collection of pre defined methods and classes.
+E.g : jQuery, React JS etc
+
+Framework : It is also a collection of pre defined methods and classes however it covers lot of functionalities which are not present in a library.
+E.g Angular, Express JS etc
+
+We have countless libraries and frameworks in JS.
+
+To use every library/framework we refer to its documentation.
+
+jQuery is represented by $

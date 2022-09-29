@@ -1,0 +1,26 @@
+ready event => When everything on your webpage is ready i.e all the HTML part is created and rendered on browser.
+
+RegEx => Regular Expressions => It helps in writing the patterns which can eventually help us in finding different data sets within a string.
+
+RegEx works with strings.
+
+"123, ABC Street, NJ, 08817"
+
+Syntax : /<regex>/<options>
+
+Character Classes : 
+
+\w => Any word
+\W => Anything which is not a word
+\d => Any digit
+\D => Anything which is not a digit
+\s => Spaces
+\S => Not spaces
+
+Options : 
+i => Case insensitive
+g => Global (Find item in whole string)
+
+
+To Learn Regex in Detail : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+To Test regex : https://regex101.com/

@@ -1,0 +1,26 @@
+From sharma.shikhar95 to Everyone 07:44 PM
+how to run loop in a function, query is regarding the dynamic grid assignment.
+From priyankachaudhary855 to Everyone 07:47 PM
+sir can u please explain briefly Fetch API
+From priyankachaudhary855 to Everyone 07:53 PM
+promises in javascript
+
+
+Inheritance : 
+A => 5 properties/functions
+    B => 5 from A + 3 prop/func
+        C => 8 from B + 2 prop/func
+            D => 10 from C + 5 prop/func
+
+Single Interitance : Single Parent and Single Child.
+Multiple Inheritance : Multiple Parent and Single Child.
+Multi Level Inheritance : Example Above
+
+
+
+Target : Will refer to the element where the event has occured.
+Current Target : Will refer to the element where the event listener is registered
+
+
+
+AJAX => Async Javascript And XML.

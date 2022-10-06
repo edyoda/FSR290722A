@@ -201,4 +201,28 @@ $(document).ready(function () {
       }
     }
   }
+
+  var currentVideoIndex = 0;
+
+  $("#nextBtn").on("click", function () {
+    currentVideoIndex++;
+    if(currentVideoIndex < videoPlaySectionData.length) {
+      var videoDataToPlay = videoPlaySectionData[currentVideoIndex];
+      var vimeoId = videoDataToPlay.vimeoId;
+      player.src = "https://player.vimeo.com/video/" + vimeoId;
+    } else {
+      alert("No more videos available");
+    }
+  });
+
+  $("#previousBtn").on("click", function () {
+    currentVideoIndex--;
+    if (currentVideoIndex > -1) {
+      var videoDataToPlay = videoPlaySectionData[currentVideoIndex];
+      var vimeoId = videoDataToPlay.vimeoId;
+      player.src = "https://player.vimeo.com/video/" + vimeoId;
+    } else {
+      alert("No videos to go previous");
+    }
+  });
 });
